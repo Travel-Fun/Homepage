@@ -15,7 +15,7 @@ html, body{
     top: 0;
 }
 .header-right {
-  float: right;
+    float: right;
 }
 .header-left {
     padding-left: 15px;
@@ -28,6 +28,43 @@ h1{
 h1 span {
     display: inline-block;
 }
+.button {
+    background-color: #f4f2ea;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #004055;
+    border: 2px solid #004055;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 15px 32px;
+    display: inline-flex;
+    margin-top: 2vh;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    position: fixed;
+    
+}
+
+.button:hover {
+  background-color: #AA2E00;
+  border: 2px solid #AA2E00;
+  color: #f4f2ea;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #AA2E00;
+  border: 2px solid #AA2E00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.login{right: 270px;}
+.signup{right: 150px;}
+.community{right: 10px;}
+
 
 
 /*
