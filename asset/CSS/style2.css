@@ -1,24 +1,12 @@
+/* Home.html */
 html, body{
     height: 100%;
     margin: 0;
-    background-color: #f4f2ea;
+    background-color: #84b4e4;
     font-family: 'Dosis', sans-serif;
     color: #000a39;
-    padding-left: 50px;
-    padding-right: 50px;
 }
-/* Background Settings */
-.background{
-    background-image: url("./asset/TravelFun.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
 
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-}
 /* Title Text */
 .titleText{
     /* The position */
@@ -51,12 +39,15 @@ html, body{
     left:0;
 }
 
-.fade {
-    margin-bottom: 50px;
-    opacity: 1;
-    padding-left: 50px;
-    padding-right: 50px;
+area.hoverable
+{
+    fill: transparent;
+    stroke:gray; /* Replace with none if you like */
+    stroke-width: 4;
+    cursor: pointer;
 }
-.intro{
-    font-size: 5vh;
+
+area.hoverable:hover
+{
+ stroke:black;   
 }
