@@ -29,25 +29,20 @@ html, body{
     text-align: center;
 }
 
+.header {
+    width: 2250px; /* Image map width */
+    height: 10vh;
+    background-color: #84b4e4;
+    position: sticky;
+    top: 0;
+}
+
 .zoom{  
-    height:100vh;  
+    height:100vh;
     width:100%;  
     display:grid;  
     place-items:center;  
     position:fixed;  
     top:0;  
     left:0;
-}
-
-area.hoverable
-{
-    fill: transparent;
-    stroke:gray; /* Replace with none if you like */
-    stroke-width: 4;
-    cursor: pointer;
-}
-
-area.hoverable:hover
-{
- stroke:black;   
 }
