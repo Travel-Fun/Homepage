@@ -1,0 +1,40 @@
+section {
+    padding: 50px;
+    overflow: hidden;
+}
+
+.sec-title {
+    padding: 20px;
+    text-align: left;
+}
+
+.sec-title h2 {
+    color: #263446;
+    font-weight: bold;
+    position: relative;
+}
+
+.sec-title h2:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #1b6db1dc;
+    bottom: -10px;
+    width: 100%;
+    position: absolute;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #343d46;
+    color: #fafdffbd;
+}
+
+img {
+    padding: 30px;
+}
+
+#europe h3 {
+    margin-top: 20px;
+    padding-top: 20px;
+}
