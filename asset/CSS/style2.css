@@ -2,7 +2,7 @@
 html, body{
     height: 100%;
     margin: 0;
-    background-color: #84b4e4;
+    background-color: #f4f2ea; /*#84b4e4;*/
     font-family: 'Dosis', sans-serif;
     color: #000a39;
 }
@@ -10,7 +10,7 @@ html, body{
 .header {
     width: 2250px; /* Image map width */
     height: 10vh;
-    background-color: #84b4e4;
+    background-color: #f4f2ea;
     position: sticky;
     top: 0;
 }
@@ -21,12 +21,17 @@ html, body{
     padding-left: 15px;
     float: left;
 }
+.logo{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    object-fit: cover;
+    position: fixed;
+}
 h1{
     display: flex;
     position: fixed;
-}
-h1 span {
-    display: inline-block;
+    left: 7vh;
 }
 .button {
     background-color: #f4f2ea;
