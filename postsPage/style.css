@@ -67,8 +67,6 @@ img {
 /*-------------------------header---------------------------------*/
 
 .header {
-    width: 2250px;
-    /* Image map width */
     height: 10vh;
     background-color: #84b4e4;
     position: sticky;
