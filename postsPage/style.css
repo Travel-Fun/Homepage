@@ -12,6 +12,7 @@ section {
     color: #263446;
     font-weight: bold;
     position: relative;
+    font-family: 'Dosis', sans-serif;
 }
 
 .sec-title h2:before {
@@ -37,4 +38,101 @@ img {
 #europe h3 {
     margin-top: 20px;
     padding-top: 20px;
+}
+
+.pic-box {
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.text-box {
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.Country {
+    width: 190px;
+    height: 40px;
+    border: 1px solid black;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+}
+
+
+/*-------------------------header---------------------------------*/
+
+.header {
+    width: 2250px;
+    /* Image map width */
+    height: 10vh;
+    background-color: #84b4e4;
+    position: sticky;
+    top: 0;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-left {
+    padding-left: 15px;
+    float: left;
+}
+
+h1 {
+    display: flex;
+    position: fixed;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+.button {
+    background-color: #f4f2ea;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #004055;
+    border: 2px solid #004055;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-flex;
+    margin-top: 2vh;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    position: fixed;
+}
+
+.button:hover {
+    background-color: #AA2E00;
+    border: 2px solid #AA2E00;
+    color: #f4f2ea;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+    background-color: #AA2E00;
+    border: 2px solid #AA2E00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.home {
+    right: 296px;
+}
+
+.login {
+    right: 158px;
+}
+
+.signup {
+    right: 10px;
 }
