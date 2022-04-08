@@ -66,10 +66,21 @@ h1{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.login{right: 270px;}
-.signup{right: 150px;}
-.community{right: 10px;}
+.home {
+    right: 440px;
+}
 
+.login {
+    right: 310px;
+}
+
+.signup {
+    right: 170px;
+}
+
+.community {
+    right: 10px;
+}
 
 
 /*
